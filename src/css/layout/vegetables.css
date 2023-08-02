@@ -1,3 +1,8 @@
+.container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .subtitile {
   min-width: 335px;
   width: 100%;
@@ -14,17 +19,24 @@
 
 .vegetables-text {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .vegetables-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 444px;
+  margin-bottom: 20px;
 }
 
 .vegetables-item {
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 40px 20px 20px;
+  border-radius: 20px;
+  background-color: var(--light-green);
 }
 
 .vegetables-item-title {
@@ -35,12 +47,9 @@
   margin-bottom: 8px;
 }
 
-.vegetables-item-text {
-  margin-bottom: 36px;
-}
-
 .vegetables-item-picture {
-  margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 .vegetables-item-cost {
@@ -54,8 +63,10 @@
   display: block;
   width: 80px;
   height: 80px;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 50%;
-  fill: var(--orange);
+  background-color: var(--orange);
 }
 
 .vegetables-button-rotate {
@@ -68,7 +79,7 @@
 }
 
 .vegetables-button-icon {
-  fill: rgb(255, 255, 255);
+  fill: var(--white);
 }
 
 .vegetables-button-name {
@@ -81,7 +92,7 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
 
-  color: rgb(255, 255, 255);
+  color: var(--white);
 }
 
 .disp-none {
