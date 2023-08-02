@@ -119,10 +119,10 @@
 
   .subtitile {
     max-width: 624px;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: -1.6px;
-    text-shadow: none;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   }
 
   .vegetables-text {
@@ -171,10 +171,11 @@
   .subtitile {
     max-width: 624px;
     margin-bottom: 14px;
-    font-size: 28px;
-    line-height: 1.14;
-    letter-spacing: -1.12px;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    text-shadow: none;
+  
   }
 
   .vegetables-text {
