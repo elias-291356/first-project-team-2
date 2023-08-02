@@ -13,6 +13,8 @@
 
   letter-spacing: -1.6px;
   text-transform: uppercase;
+
+  margin-bottom: 14px;
 }
 
 .hero-span {
@@ -33,6 +35,8 @@
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.56px;
+
+  margin-bottom: 20px;
 }
 
 .hero-btn {
@@ -44,6 +48,29 @@
   line-height: 1.14;
   letter-spacing: -0.56px;
   text-transform: uppercase;
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  background-color: var(--beige);
+  transform: rotate(-14deg);
+  margin-bottom: 8px;
+}
+
+.bcg-client {
+  margin-bottom: 16px;
+
+}
+
+.img-hero {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.hero-btn:hover, :focus {
+  background-color: var(--light-green);
+  color: var(--green);
 }
 
 .hero-link {
@@ -56,4 +83,36 @@
   line-height: 1.2;
   letter-spacing: -0.4px;
   text-transform: uppercase;
+
+}
+
+.hero-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: space-between;
+  gap: 4px;
+  width: 169px;
+}
+
+.hero-nav-item {
+  outline: 1px solid var(--white);
+  border-radius: 50px;
+  padding: 8px 14px;
+
+}
+
+.hero-nav-items {
+  color: var(--white);
+
+}
+
+.hero-nav-item:first-child {
+  background-color: var(--white);
+
+
+}
+
+.first-menu {
+  color: var(--black);
 }
