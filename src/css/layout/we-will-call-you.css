@@ -1,0 +1,104 @@
+.callback-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.callback-from-container {
+  text-align: center;
+  justify-content: center;
+}
+
+.callback-form {
+  display: flex;
+  justify-content: center;
+}
+
+.callback-h2 {
+  margin-bottom: 20px;
+  padding-left: 26px;
+  padding-right: 26px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+.callback-p {
+  text-align: center;
+  padding-bottom: 40px;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  color: #141414;
+}
+
+.callback-label {
+  width: 100%;
+}
+
+.callback-label-input {
+  width: 265px;
+  height: 48px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--white);
+  border-radius: 100px;
+  border: 1px solid #141414;
+  opacity: 0.30000001192092896;
+}
+
+
+.callback-img-bg {
+  background-image: url(../../img/we-will-call-you/bg-we-will-call-you.png);
+  background-color: #EAF7E5;
+  background-size: auto;
+  background-position: center;
+  border-radius: 40px;
+  width: 100%;
+  padding-top: 31px;
+}
+
+.callback-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ============= BUTTON ============= */
+
+
+.input-wrapper {
+  position: relative;
+  width: 265px;
+  height: 48px;
+  margin-bottom: 40px;
+}
+
+.recall-btn {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100px;
+  background: #FC8A11;
+  padding: 15px 35px;
+  z-index: 3;
+}
