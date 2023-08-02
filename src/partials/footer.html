@@ -1,8 +1,8 @@
-<footer>
-  <div class="container">
+<footer class="footer">
+  <div class="container footer-container">
     <nav>
-      <picture>
-        <source
+      <picture class="footer-image">
+        <!-- <source
           srcset="
             ../img/footer/footer-tablet-dekstop.jpg    1x,
             ../img/footer/footer-tablet-dekstop@2x.jpg 2x
@@ -20,7 +20,7 @@
             ../img/footer/footer-mobile@2x.jpg 2x
           "
           media="max-width:768px"
-        />
+        /> -->
         <img
           src="../img/footer/footer-mobile.jpg"
           alt="photo vegetables"
@@ -38,45 +38,68 @@
         </svg>
         &nbsp;&nbsp;veggieboost
       </a>
-      <ul class="list">
+      <ul class="menu-nav list">
         <li>
-          <a href="" class="link">How It Works</a>
+          <a href="" class="menu-nav-item link">How It Works</a>
         </li>
         <li>
-          <a href="" class="link">Vegetables</a>
+          <a href="" class="menu-nav-item link">Vegetables</a>
         </li>
-        <li><a href="" class="link">Contacts</a></li>
+        <li>
+          <a href="" class="menu-nav-item link">Contacts</a>
+        </li>
       </ul>
     </nav>
-    <ul class="list footer-social-list">
+    <ul class="footer-social-list list">
       <li class="footer-social-item">
         <a class="footer-social-link" href="">
-          <svg class="footer-social-icon" width="24" height="24">
+          <svg
+            class="footer-social-icon"
+            width="24"
+            height="24"
+            aria-label="facebook icon"
+          >
             <use href="../img/sprite.svg#icon-face-book"></use>
           </svg>
         </a>
       </li>
       <li class="footer-social-item">
         <a class="footer-social-link" href="">
-          <svg class="footer-social-icon" width="24" height="24">
+          <svg
+            class="footer-social-icon"
+            width="24"
+            height="24"
+            aria-label="instagram icon"
+          >
             <use href="../img/sprite.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="footer-social-item">
         <a class="footer-social-link" href="">
-          <svg class="footer-social-icon" width="24" height="24">
+          <svg
+            class="footer-social-icon"
+            width="24"
+            height="24"
+            aria-label="youtube icon"
+          >
             <use href="../img/sprite.svg#icon-youtube"></use>
           </svg>
         </a>
       </li>
     </ul>
-    <address>
-      <ul class="list">
-        <li>
-          <a class="link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+    <address class="address">
+      <ul class="address-list list">
+        <li class="address-item">
+          <a class="address-tel link" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
         </li>
-        <li>1678 S. Pioneer Road Salt Lake City UT 84104</li>
+        <li class="address-item">
+          <p class="address-text">
+            1678 S. Pioneer Road Salt Lake City UT 84104
+          </p>
+        </li>
       </ul>
     </address>
   </div>
