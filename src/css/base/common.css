@@ -60,10 +60,3 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-.point-bg {
-  background-size: 41.46px 40.2px;
-  background-repeat: repeat;
-  background-position: 10px 10px;
-  background-image: radial-gradient(circle, #a1c487 3px, transparent 3px);
-}
