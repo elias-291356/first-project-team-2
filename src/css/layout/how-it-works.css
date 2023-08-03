@@ -175,7 +175,6 @@
     }
 
     .hiw-imggirl {
-        background-image: url(../../img/how-it-works/tablet/img\ girl.png);
         width: 350px;
         height: 446px;
     }
@@ -262,7 +261,6 @@
     }
 
     .hiw-imggirl {
-        background-image: url(../../img/how-it-works/desktop/img\ girl.png);
         width: 434px;
         height: 420px;
         margin-left: 80px;
