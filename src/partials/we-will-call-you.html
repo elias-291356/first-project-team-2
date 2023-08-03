@@ -1,6 +1,6 @@
-<div class="callback-container">
-  <h2 class="callback-h2">Fresh Harvest Box has got you covered</h2>
-  <div class="callback-from-container">
+<section class="callback-container container">
+  <div class="left-column">
+    <h2 class="callback-h2">Fresh Harvest Box has got you covered</h2>
     <p class="callback-p">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
     <form class="callback-form">
       <div class="input-wrapper">
@@ -17,7 +17,16 @@
       </div>
     </form>
   </div>
-  <div class="callback-img-bg">
-      <img class="callback-img" src="../img/we-will-call-you/girl.png" alt="Women holding a broccoli" width="335">
+  <div class="right-column">
+    <div class="callback-img-bg">
+      <picture>
+        <source media="(min-width:1280px)" width="525px" srcset="../img/we-will-call-you/girl-desk.png 1x, ../img/we-will-call-you/girl-desk@2x.png 2x" />
+        <source media="(min-width:768px)" width="629px" srcset="../img/we-will-call-you/girl-tab.png 1x, ../img/we-will-call-you/girl-tab@2x.png 2x" />
+        <source media="(max-width:767px)" width="335px" srcset="../img/we-will-call-you/girl.png 1x, ../img/we-will-call-you/girl@2x.png 2x" />
+        <img class="callback-img" alt="Women holding a broccoli" src="../img/we-will-call-you/girl.png">
+      </picture>
+      <!-- <img class="callback-img" src="../img/we-will-call-you/girl.png" alt="Women holding a broccoli" width="335"> -->
+    </div>
   </div>
-</div>
+</section>
+

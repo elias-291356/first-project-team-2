@@ -3,10 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 80px auto;
 }
 
 .callback-from-container {
@@ -15,8 +14,9 @@
 }
 
 .callback-form {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: 100%;
+  max-width: 335px;
 }
 
 .callback-h2 {
@@ -53,7 +53,7 @@
 
 .callback-label-input {
   width: 100%;
-  min-width: 265px;
+  /* max-width: 335px; */
   height: 48px;
   margin-bottom: 40px;
   background-color: transparent;
@@ -93,10 +93,10 @@
 /* ============= BUTTON ============= */
 
 
-.input-wrapper {
+ .input-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 335px;
+  /* width: 100%;
+  max-width: 335px; */
   height: 48px;
   margin-bottom: 40px;
 }
@@ -110,15 +110,26 @@
   background: #FC8A11;
   padding: 15px 35px;
   z-index: 3;
-}
+} 
 
 /* ============= MEDIA ============= */
 
 
 @media screen and (min-width: 768px) {
+  .callback-container {
+    margin-top: 100px;
+    margin-bottom: 173px;
+  }
+
   .input-wrapper {
     max-width: 350px;
 }
+
+  .callback-form {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .callback-p {
     max-width: 499px;
     font-size: 18px;
@@ -133,5 +144,49 @@
   }
   .callback-img-bg {
     max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .callback-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 124px;
+    margin-bottom: 124px;
+  }
+  .callback-form {
+    max-width: 350px;
+    margin-left: 0;
+  }
+  .input-wrapper {
+    max-width: 350px;
+  }
+  .callback-p,
+  .callback-h2 {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-top: 20px;
+  }
+  .callback-img-bg {
+    max-width: 525px;
+  }
+  .callback-img {
+    width: 525px;
   }
 }
