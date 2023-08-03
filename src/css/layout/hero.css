@@ -45,7 +45,35 @@
   height: 44px;
 }
 
+.hero-nav-item:hover {
+  outline: 2px solid var(--white);
+}
 
+.hero-nav-item:focus {
+  outline: 2px solid var(--white);
+}
+
+
+.hero-nav-item:hover {
+  cursor: pointer;
+}
+
+.first-menu {
+  outline: none;
+}
+
+.hero-nav-items:hover,
+.hero-nav-items:focus {
+  outline: none;
+  background-color: transparent;
+
+}
+
+
+.hero-nav-items {
+  outline: none;
+  background-color: transparent;
+}
 
 .user-item {
   outline: 2px solid var(--white);
@@ -188,6 +216,7 @@
   color: var(--white);
 
 }
+
 
 .hero-nav-item:first-child {
   background-color: var(--white);
