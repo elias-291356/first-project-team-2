@@ -56,21 +56,20 @@
 }
 
 .vegetables-item-picture {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 260px;
 }
 
 .vegetables-item-cost {
-  font-size: 14px;
   font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: -0.56px;
 }
 
 .vegetables-button {
   display: block;
-  width: 114px;
-  height: 114px;
+  width: 80px;
+  height: 80px;
   margin-right: auto;
   margin-left: auto;
   padding: 0;
@@ -98,10 +97,8 @@
   transform: rotate(-14deg);
   text-align: center;
   text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.33;
-  letter-spacing: -0.72px;
   text-transform: uppercase;
 
   color: var(--white);
@@ -122,11 +119,16 @@
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -1.12px;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   }
 
   .vegetables-text {
-    text-shadow: none;
+    max-width: 562px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   }
 
   .vegetables-list {
@@ -145,7 +147,6 @@
 
   .vegetables-item-title {
     font-size: 28px;
-    font-weight: 700;
     line-height: 1.14;
     letter-spacing: -1.12px;
     margin-bottom: 8px;
@@ -157,6 +158,17 @@
   }
 
   .vegetables-item-cost {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+
+  .vegetables-button {
+    width: 114px;
+    height: 114px;
+  }
+
+  .vegetables-button-name {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.72px;
@@ -168,23 +180,16 @@
     padding-top: 124px;
     padding-bottom: 124px;
   }
+
   .subtitile {
-    max-width: 624px;
-    margin-bottom: 14px;
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: -1.6px;
     text-shadow: none;
-  
   }
 
   .vegetables-text {
-    max-width: 562px;
-    margin-bottom: 40px;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: -0.72px;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    text-shadow: none;
   }
 
   .vegetables-list {
@@ -196,22 +201,10 @@
   }
 
   .vegetables-item-title {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: -1.12px;
+    font-size: 32px;
+    line-height: 1.19;
+    letter-spacing: -1.28px;
     margin-bottom: 8px;
-  }
-
-  .vegetables-item-text {
-    font-size: 18px;
-    letter-spacing: -0.36px;
-  }
-
-  .vegetables-item-cost {
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: -0.72px;
   }
 
   .disp-none {
