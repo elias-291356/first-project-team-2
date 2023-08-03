@@ -1,0 +1,310 @@
+@media screen and (max-width: 767px) {
+    .hiw-buystep {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hiw-buystep-num {
+        padding: 10px 17px;
+    }
+}
+
+
+.hiw-order {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hiw-heaer {
+    margin-bottom: 24px;
+
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    /* 114.286% */
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+}
+
+.hiw-heaer-small {
+    margin-bottom: 24px;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: -0.96px; 
+    margin-bottom: 40px;   
+}
+
+.hiw-broccoli {
+    width: 335px;
+    height: 158px;
+
+    margin-bottom: 20px;
+
+    background-image: url(../../img/how-it-works/mobile/img\ vegetables.png);
+}
+
+.hiw-list-items {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    /* 128.571% */
+    letter-spacing: -0.56px;
+}
+.hiw-list-items:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.hiw-buystep {
+    position: relative;
+    border-radius: 40px;
+    background: var(--beige);
+    /* overflow: hidden; */
+}
+
+.hiw-buystep-background {
+    display: none;
+}
+
+.bkg {
+    background: url(../../img/how-it-works/BG.svg) 0 0 repeat;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.hiw-imggirl {
+    /* background-image: url(../../img/how-it-works/mobile/img\ girl.png); */
+    width: 258px;
+    height: 319px;
+}
+
+.hiw-steps-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    margin-bottom: 21px;
+}
+
+.hiw-min-text {
+    width: 166px;
+}
+
+.hiw-buystep-list {
+    width: 274px;
+}
+.hiw-buystep-list-items {
+    margin-right: 45px;
+}
+
+.hiw-buystep-num {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 50%;
+    background: var(--green);
+}
+
+@media screen and (min-width: 768px) {
+    .hiw-order {
+        justify-content: space-between;
+    }
+
+    .hiw-broccoli {
+        background-image: url(../../img/how-it-works/tablet/img\ vegetables.png);
+        width: 310px;
+        height: 176px;
+
+        margin-bottom: 40px;
+    }
+
+    .hiw-heaer {
+        width: 386px;
+
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.1;
+        /* 110% */
+        letter-spacing: -1.6px;
+    }
+
+    .hiw-order-list {
+        display: flex;
+        gap: 20px;
+
+        margin-right: 88px;
+    }
+
+    .hiw-list-items {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.13;
+        /* 133.333% */
+        letter-spacing: -0.72px;
+    }
+
+    .hiw-list-items:nth-child(1) {
+        margin-bottom: auto;
+        width: 317px;
+        height: 96px;
+    }
+    .hiw-list-items:nth-child(2) {
+        width: 279px;
+        height: 72px;
+    }
+
+    .hiw-buystep {
+        display: flex;
+        align-items: end;
+        border-radius: 80px;
+    }
+
+    .hiw-imggirl {
+        background-image: url(../../img/how-it-works/tablet/img\ girl.png);
+        width: 350px;
+        height: 446px;
+    }
+
+    .hiw-buystep-text {
+        margin: 80px 40px;
+        width: 274px;
+    }
+
+    .hiw-buystep-list {
+        width: 274px;
+    }
+    .hiw-buystep-list-items {
+        margin-right: 39px;
+    }
+
+    .hiw-heaer-small {
+        text-shadow: 0px 4px 70px 0px #0000001a;
+
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.14;
+        /* 114.286% */
+        letter-spacing: -1.12px;
+    }
+
+    .hiw-buystep-num {
+        padding: 10px 20px;
+
+        width: 46;
+        height: 44px;
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+        /* 100% */
+        letter-spacing: -0.72px;
+    }
+
+    .hiw-steps-item {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        /* 128.571% */
+        letter-spacing: -0.56px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .hiw-broccoli {
+        background-image: url(../../img/how-it-works/desktop/img\ vegetables.png);
+        width: 410px;
+        height: 170px;
+    }
+
+    .hiw-heaer {
+        width: 614px;
+
+        margin-bottom: 40px;
+
+        font-size: 48px;
+        line-height: 1.04;
+        /* 104.167% */
+    }
+
+    .hiw-order-list {
+        max-width: 687px;
+        gap: 0;
+    }
+
+    .hiw-list-items:nth-child(1) {
+        margin-bottom: auto;
+        width: 353px;
+        height: 96px;
+    }
+    .hiw-list-items:nth-child(2) {
+        width: 279px;
+        height: 72px;
+    }
+    .hiw-list-items:last-child {
+        margin-left: 40px;
+    }
+
+    .hiw-imggirl {
+        background-image: url(../../img/how-it-works/desktop/img\ girl.png);
+        width: 434px;
+        height: 420px;
+        margin-left: 80px;
+    }
+
+    .hiw-buystep {
+        justify-content: center;
+        gap: 110px;
+    }
+
+    .hiw-buystep-text {
+        width: auto;
+        margin: 80px 80px 80px 0;
+        width: 512px;
+    }
+
+    .hiw-heaer-small {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.1;
+        /* 110% */
+        letter-spacing: 0.5px;
+    }
+
+    .hiw-buystep-list {
+        width: 349px;
+    }
+
+    .hiw-steps-item {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.28;
+            /* 128.571% */
+            letter-spacing: -0.56px;
+    }
+
+    .hiw-buystep-list-items {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        /* 128.571% */
+        letter-spacing: -0.56px;
+    }
+    
+}
