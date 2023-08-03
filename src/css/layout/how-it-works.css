@@ -39,6 +39,7 @@
     line-height: 1.16;
     letter-spacing: -0.96px; 
     margin-bottom: 40px;   
+    text-transform: uppercase;
 }
 
 .hiw-broccoli {
@@ -46,8 +47,6 @@
     height: 158px;
 
     margin-bottom: 20px;
-
-    background-image: url(../../img/how-it-works/mobile/img\ vegetables.png);
 }
 
 .hiw-list-items {
@@ -65,27 +64,13 @@
     position: relative;
     border-radius: 40px;
     background: var(--beige);
-    /* overflow: hidden; */
 }
 
 .hiw-buystep-background {
     display: none;
 }
 
-.bkg {
-    background: url(../../img/how-it-works/BG.svg) 0 0 repeat;
-    background-repeat: repeat;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-}
-
 .hiw-imggirl {
-    /* background-image: url(../../img/how-it-works/mobile/img\ girl.png); */
     width: 258px;
     height: 319px;
 }
@@ -95,7 +80,7 @@
     align-items: center;
     gap: 14px;
 
-    margin-bottom: 21px;
+    margin-bottom: 20px;
 }
 
 .hiw-min-text {
@@ -107,6 +92,17 @@
 }
 .hiw-buystep-list-items {
     margin-right: 45px;
+}
+
+.hiw-background {
+    background-image: url(../../img/how-it-works/mobile/BG.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
 }
 
 .hiw-buystep-num {
@@ -126,7 +122,6 @@
     }
 
     .hiw-broccoli {
-        background-image: url(../../img/how-it-works/tablet/img\ vegetables.png);
         width: 310px;
         height: 176px;
 
@@ -169,8 +164,18 @@
     }
 
     .hiw-buystep {
+        position: relative;
         display: flex;
         align-items: end;
+
+        border-radius: 80px;
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+
+    .hiw-background {
+        background-image: url(../../img/how-it-works/tablet/BG.png);
+        background-repeat: no-repeat;
         border-radius: 80px;
     }
 
@@ -180,8 +185,10 @@
     }
 
     .hiw-buystep-text {
-        margin: 80px 40px;
         width: 274px;
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 80px;
     }
 
     .hiw-buystep-list {
@@ -193,24 +200,20 @@
 
     .hiw-heaer-small {
         text-shadow: 0px 4px 70px 0px #0000001a;
-
         font-size: 28px;
         font-weight: 500;
         line-height: 1.14;
-        /* 114.286% */
         letter-spacing: -1.12px;
     }
 
     .hiw-buystep-num {
         padding: 10px 20px;
 
-        width: 46;
+        width: 46px;
         height: 44px;
-
         font-size: 18px;
         font-weight: 400;
         line-height: 1;
-        /* 100% */
         letter-spacing: -0.72px;
     }
 
@@ -218,7 +221,6 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 1.28;
-        /* 128.571% */
         letter-spacing: -0.56px;
     }
 
@@ -227,7 +229,6 @@
 @media screen and (min-width: 1280px) {
 
     .hiw-broccoli {
-        background-image: url(../../img/how-it-works/desktop/img\ vegetables.png);
         width: 410px;
         height: 170px;
     }
@@ -263,18 +264,24 @@
     .hiw-imggirl {
         width: 434px;
         height: 420px;
-        margin-left: 80px;
     }
 
     .hiw-buystep {
         justify-content: center;
         gap: 110px;
+        padding-top: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .hiw-background {
+        background-image: url(../../img/how-it-works/desktop/BG.png);
     }
 
     .hiw-buystep-text {
         width: auto;
-        margin: 80px 80px 80px 0;
         width: 512px;
+        padding-left: 0px;
     }
 
     .hiw-heaer-small {
@@ -290,11 +297,11 @@
     }
 
     .hiw-steps-item {
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 1.28;
-            /* 128.571% */
-            letter-spacing: -0.56px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        /* 128.571% */
+        letter-spacing: -0.56px;
     }
 
     .hiw-buystep-list-items {
@@ -303,6 +310,8 @@
         line-height: 1.28;
         /* 128.571% */
         letter-spacing: -0.56px;
+        margin: 0;
     }
+    
     
 }

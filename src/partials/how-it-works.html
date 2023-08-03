@@ -1,10 +1,15 @@
 <section class="section">
     <div class="container hiw-order">
         <h2 class="hiw-heaer">To order your vegetable basket, simply follow these easy steps</h2>
-        <div class="hiw-broccoli"></div>
-        <picture>
-            <source>
-            <img srcset="../img/how-it-works/mobile/img-girl@2x.png 2x" src="../img/how-it-works/mobile/img-vegetables.png" alt="">
+        <!-- <div class="hiw-broccoli"></div> -->
+        <picture class="hiw-broccoli">
+            <source 
+            srcset="./img/how-it-works/desktop/img-vegetables.png 1x, ./img/how-it-works/desktop/img-vegetables@2x.png 2x" media="(min-width: 1280px)">
+            <source 
+            srcset="./img/how-it-works/tablet/img-vegetables.png 1x, ./img/how-it-works/tablet/img-vegetables@2x.png 2x" media="(min-width: 768px)">
+            <source 
+            srcset="./img/how-it-works/mobile/img-vegetables.png 1x, ./img/how-it-works/mobile/img-vegetables@2x.png 2x" media="(max-width: 767px)">
+            <img src="../img/how-it-works/mobile/img-vegetables.png" alt="broccoli">
         </picture>
             <ul class="hiw-order-list list">
                 <li class="hiw-list-items">Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home. </li>
@@ -12,21 +17,21 @@
             </ul>
     </div>
 </section>
-<section class="container section">
+<section class="section container section-hiw">
     <div class="hiw-buystep">
-        <picture>
-            <source class="hiw-imggirl" src="../img/how-it-works/desktop/img-girl.png"
-            srcset="../img/how-it-works/desktop/img-girl@2x.png 2x" media="(min-width: 1280)">
-            <source class="hiw-imggirl" src="../img/how-it-works/tablet/img-girl.png"
-            srcset="../img/how-it-works/tablet/img-girl@2x.png 2x" media="(min-width: 768)">
-            <source class="hiw-imggirl" src="../img/how-it-works/mobile/img-girl.png"
-            srcset="../img/how-it-works/mobile/img-girl@2x.png 2x" media="(max-width: 767)">
-            <img class="hiw-imggirl" srcset="../img/how-it-works/mobile/img-girl@2x.png" src="../img/how-it-works/mobile/img-girl.png" alt="">
+        <div class="hiw-background"></div>
+        <picture class="hiw-imggirl">
+            <source 
+            srcset="./img/how-it-works/desktop/img-girl.png 1x, ./img/how-it-works/desktop/img-girl@2x.png 2x" media="(min-width: 1280px)">
+            <source 
+            srcset="./img/how-it-works/tablet/img-girl.png 1x, ./img/how-it-works/tablet/img-girl@2x.png 2x" media="(min-width: 768px)">
+            <source 
+            srcset="./img/how-it-works/mobile/img-girl.png 1x, ./img/how-it-works/mobile/img-girl@2x.png 2x" media="(max-width: 767px)">
+            <img src="./img/how-it-works/mobile/img-girl.png" alt="girl">
         </picture>
-        <!-- <div class="hiw-imggirl"></div> -->
         <div class="hiw-buystep-text">
             <h3 class="hiw-heaer-small">3 Easy Steps for Buying Fresh Vegetables</h3>
-            <ul class="hiw-buystep-list list">
+            <ol class="hiw-buystep-list">
                 <li class="hiw-steps-item">
                     <span class="hiw-buystep-num">1</span>
                     <p class="hiw-buystep-list-items">Just choose the vegetable you want to order by clicking on the checkboxes next to it.</p>
@@ -39,7 +44,7 @@
                     <span class="hiw-buystep-num">3</span>
                     <p class="hiw-buystep-list-items">Sit back and relax! Your fresh vegetables basket will be delivered.</p>
                 </li>
-            </ul>
+            </ol>
         </div>
     </div>
 </section>
