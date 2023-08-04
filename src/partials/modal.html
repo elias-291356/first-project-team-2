@@ -1,43 +1,3 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-<link href="Modal_files/css2.css" rel="stylesheet">
-<link rel="stylesheet" href="Modal_files/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-<link rel="stylesheet" href="Modal_files/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-   <link rel="stylesheet" href="../css/base/common.css">
-   <link rel="stylesheet" href="../css/base/section.css">
-   <link rel="stylesheet" href="../css/base/container.css">
-   <link rel="stylesheet" href="../css/layout/modal.css">
-   <title>Modal</title>
-</head>
-<body>
-   <section class="section">
-      <div class="container">
-      <div class="content-wrap">
-         <h1>Thug Shaker hood</h1>
-         <button type="button" class="btn-banner" data-modal-open="">CLICK ON IT</button>
-      </div>
-
-         <div class="mobile-menu" data-modal-burger="">
-            <div class="container mobile-menu-container">
-               <button class="mobile-menu-close-btn" data-modal-close-burger="">
-                  <svg width="8" height="8" class="mobile-menu-close-icon">
-      
-                  <use href="./img/close-burger.svg#icon-close-burger"></use>
-      
-                  </svg>
-               </button>
-            </div>
-         </div>
-      </div>
-   </section>
-
-
 <!--Modal Window-->
    <div class="backdrop is-hidden" data-modal="">
       <div class="modal-window">
@@ -50,25 +10,43 @@
                   <div class="modal-checkbox">
                      <h2 class="modal-card-title">Cabbage Basket</h2>
                      <p class="modal-card-paragraph">Plant</p>
-                     <img class="img-clean modal-img" srcset="../img/modal-window/cabbage@1x.png 1x, ../img/modal-window/cabbage@2x.png 2x, 
-                     ../img/modal-window/cabbage@1x.webp 1x, ../img/modal-window/cabbage@2x.webp 2x,"
-            src="../img/modal-window/cabbage@1x.png" alt="cabbage" height="200px" width="243px" />
+                     <picture class="img-clean">
+                        <source
+                           srcset="./img/modal-window/cabbage@1x.png 1x, /img/modal-window/cabbage@2x.png 2x"
+                           media="(min-width: 768px)">
+                        <source 
+                           srcset="./img/modal-window/cabbage@1x.png 1x, /img/modal-window/cabbage@2x.png 2x"
+                           media="(max-width: 767px)">
+                        <img class="img-clean modal-img" src="./img/modal-window/cabbage.png" alt="cabbage">
+                     </picture>
                   </div></li>
                <li class="modal-card list">
                   <div class="modal-checkbox">
                      <h2 class="modal-card-title">Tomato Basket</h2>
                      <p class="modal-card-paragraph">Plant</p>
-                     <img class="img-clean modal-img" srcset="../img/modal-window/tomato@1x.png 1x, ../img/modal-window/tomato@2x.png 2x, 
-                     ../img/modal-window/tomato@1x.webp 1x, ../img/modal-window/tomato@2x.webp 2x,"
-            src="../img/modal-window/tomato@1x.png" alt="cabbage" height="200px" width="243px" />
+                     <picture class="img-clean">
+                        <source
+                           srcset="./img/modal-window/tomato@1x.png 1x, /img/modal-window/tomato@2x.png 2x"
+                           media="(min-width: 768px)">
+                        <source 
+                           srcset="./img/modal-window/tomato@1x.png 1x, /img/modal-window/tomato@2x.png 2x"
+                           media="(max-width: 767px)">
+                        <img class="img-clean modal-img" src="./img/modal-window/tomato.png" alt="tomato">
+                     </picture>
                   </div></li>
                <li class="modal-card list">
                   <div class="modal-checkbox">
                      <h2 class="modal-card-title">Vegetables Basket</h2>
                      <p class="modal-card-paragraph">Plant</p>
-                     <img class="img-clean modal-img" srcset="../img/modal-window/vegetables@1x.png 1x, ../img/modal-window/vegetables@2x.png 2x, 
-                     ../img/modal-window/vegetables@1x.webp 1x, ../img/modal-window/vegetables@2x.webp 2x,"
-            src="../img/modal-window/vegetables@1x.png" alt="cabbage" height="200px" width="243px" />
+                     <picture class="img-clean">
+                        <source
+                           srcset="./img/modal-window/vegetables@1x.png 1x, /img/modal-window/vegetables@2x.png 2x"
+                           media="(min-width: 768px)">
+                        <source 
+                           srcset="./img/modal-window/vegetables@1x.png 1x, /img/modal-window/vegetables@2x.png 2x"
+                           media="(max-width: 767px)">
+                        <img class="img-clean modal-img" src="./img/modal-window/vegetables.png" alt="vegetables">
+                     </picture>
                   </div>
                </li>
             </ul>
@@ -100,23 +78,16 @@
                   <div class="wrap-user-comment">
                   <textarea class="textarea-form" name="user-comment" placeholder="Enter comments..." id="user-comment"></textarea>
                   </div>
-         
-         
                   <!--Button-->
                   <button class="btn-form" type="submit">Submit</button>
                </form>
             </div>
-               <div class="modal-girl-pack"><img class="modal-girl" src="../img/modal-window/modal-girl@1x.png" alt="a"></div>
+               <div class="modal-girl-pack"><img class="modal-girl" src="./img/modal-window/modal-girl@1x.png" alt="a"></div>
          </div>
          <button type="button" class="modal-btn" data-modal-close="">
             <svg class="svg-close-btn" width="28" height="28">
-               <use href="../img/sprite.svg#icon-close"></use>
+               <use href="./img/sprite.svg#icon-close"></use>
             </svg>
          </button>
       </div>
    </div>
-   <!--Scripts-->
-   <script src="../js/mobile-menu.js"></script>
-   <script src="../js/modal.js"></script>
-
-</body></html>
