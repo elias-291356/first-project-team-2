@@ -2,9 +2,35 @@
 
 }
 
+.adment {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .adment-orange-text {
     display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 200%;
 
+    padding: 8.485px 0px 13.471px 5.732px;
     background-color: var(--orange);
 
     transform: rotate(2deg);
@@ -12,36 +38,72 @@
 
 .adment-green-text {
     display: flex;
+    gap: 20px;
+    overflow: hidden;
+    width: 200%;
 
+    padding: 12.474px 0px 9.354px 0px;
     background-color: var(--green);
-    
+
     transform: rotate(-4deg)
 }
 
-.adment-header-line-run {
+.adment-header-line-top-run {
+    max-width: 690px;
+
     color: #F9F7F4;
-    font-family: Neue Montreal;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 1.16;
     /* 116.667% */
     letter-spacing: -0.48px;
 
     flex-shrink: 0;
     margin: 0;
-    padding: 10px 15px;
     min-width: 100%;
     white-space: nowrap;
     animation-name: marqueeLine;
     animation-duration: 5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
+.adment-header-line-bottom-run {
+    max-width: 690px;
+
+    color: #F9F7F4;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: -0.48px;
+
+    flex-shrink: 0;
+    margin: 0;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+/* .adment-header-line-run:nth-child(2) {
+    display: none;
+} */
 
 .adment-span-40 {
     color: #F9F7F4;
     font-family: Neue Montreal;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+}
+
+.adment-vitamins {
+    color: #F9F7F4;
+    font-family: DM Sans;
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
@@ -56,5 +118,75 @@
 
     to {
         transform: translateX(-100%);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .adment-orange-text {
+        padding: 13.534px 14.403px 18.466px 13.597px;
+    }
+
+    .adment-green-text {
+        padding: 16.137px 9.821px 15.863px 11.179px;
+    }
+
+        .adment-header-line-run {
+            color: #F9F7F4;
+            font-family: Neue Montreal;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1.16;
+            /* 116.667% */
+            letter-spacing: -0.48px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+    .adment-orange-text {
+        padding: 22.955px 0px 28.074px 0px;
+
+        transform: rotate(3deg);
+    }
+
+    .adment-green-text {
+        padding: 22.955px 0px 28.074px 0px;
+    }
+
+    .adment-header-line-bottom-run {
+        font-family: DM Sans;
+        font-size: 40px;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: -0.8px;
+        animation-duration: 8s;
+    }
+
+    .adment-header-line-top-run {
+        display: inline-block;
+        width: 1100px;
+        font-family: DM Sans;
+        font-size: 40px;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: -0.8px;
+        animation-duration: 8s;
+    }
+
+    .adment-vitamins {
+        font-family: DM Sans;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: -0.8px;
+    }
+
+    .adment-span-40 {
+        font-family: DM Sans;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: -0.8px;
     }
 }
