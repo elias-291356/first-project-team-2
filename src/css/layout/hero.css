@@ -304,12 +304,19 @@
     row-gap: 8px;
   }
 
+  .hero-list-link {
+    font-size: 12px;
+  }
+
+
+
   .bcg-client {
     margin-bottom: 4px;
   }
 
   .hero-list-item {
-    padding: 10px 25px;
+    padding: 10px 20px;
+
 
   }
 }
@@ -387,7 +394,8 @@
   }
 
   .hero-list-item {
-    padding: 12px 38px;
+    padding: 12px 32px;
+
 
   }
 }
