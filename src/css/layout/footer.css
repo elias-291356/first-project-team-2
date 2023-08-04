@@ -10,8 +10,6 @@
 .footer-image {
   margin-bottom: 20px;
   border-radius: 100px;
-  background: url('../img/footer/footer-mobile.jpg'),
-    lightgray 0px -43.24px / 100% 194.972% no-repeat;
 }
 
 .block-tablet-left {
