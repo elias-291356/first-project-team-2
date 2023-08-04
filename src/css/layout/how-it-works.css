@@ -37,8 +37,8 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 1.16;
-    letter-spacing: -0.96px; 
-    margin-bottom: 40px;   
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
@@ -56,6 +56,7 @@
     /* 128.571% */
     letter-spacing: -0.56px;
 }
+
 .hiw-list-items:nth-child(1) {
     margin-bottom: 20px;
 }
@@ -90,6 +91,7 @@
 .hiw-buystep-list {
     width: 274px;
 }
+
 .hiw-buystep-list-items {
     margin-right: 45px;
 }
@@ -103,6 +105,7 @@
     top: 0;
     left: 0;
     border-radius: 40px;
+    pointer-events: none;
 }
 
 .hiw-buystep-num {
@@ -158,6 +161,7 @@
         width: 317px;
         height: 96px;
     }
+
     .hiw-list-items:nth-child(2) {
         width: 279px;
         height: 72px;
@@ -194,6 +198,7 @@
     .hiw-buystep-list {
         width: 274px;
     }
+
     .hiw-buystep-list-items {
         margin-right: 39px;
     }
@@ -234,7 +239,7 @@
 
     .hiw-header {
         width: 614px;
-
+        letter-spacing: -1.92px;
         margin-bottom: 40px;
 
         font-size: 48px;
@@ -252,10 +257,12 @@
         width: 353px;
         height: 96px;
     }
+
     .hiw-list-items:nth-child(2) {
         width: 279px;
         height: 72px;
     }
+
     .hiw-list-items:last-child {
         margin-left: 40px;
     }
@@ -311,6 +318,6 @@
         letter-spacing: -0.56px;
         margin: 0;
     }
-    
-    
+
+
 }
