@@ -14,10 +14,14 @@
     lightgray 0px -43.24px / 100% 194.972% no-repeat;
 }
 
+.block-tablet-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo {
   max-width: 335px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -124,11 +128,6 @@
 
   .menu-nav {
     margin-bottom: 0;
-  }
-
-  .block-tablet-left {
-    display: flex;
-    flex-direction: column;
   }
 
   .block-tablet-rigth {
