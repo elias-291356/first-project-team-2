@@ -1,0 +1,192 @@
+.callback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 80px auto;
+}
+
+.callback-from-container {
+  text-align: center;
+  justify-content: center;
+}
+
+.callback-form {
+  display: block;
+  width: 100%;
+  max-width: 335px;
+}
+
+.callback-h2 {
+  max-width: 324px;
+  margin-bottom: 20px;
+  padding-left: 26px;
+  padding-right: 26px;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+}
+
+.callback-p {
+  max-width: 320px;
+  text-align: center;
+  padding-bottom: 40px;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  color: #141414;
+}
+
+.callback-label {
+  width: 100%;
+}
+
+.callback-label-input {
+  width: 100%;
+  /* max-width: 335px; */
+  height: 48px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: black;
+  border-radius: 100px;
+  border: 1px solid #141414;
+  opacity: 0.30000001192092896;
+}
+
+
+.callback-img-bg {
+  display: flex;
+  justify-content: center;
+  background-image: url(../../img/we-will-call-you/bg-we-will-call-you.png);
+  max-width: 335px;
+  background-color: #EAF7E5;
+  background-size: auto;
+  background-position: center;
+  border-radius: 40px;
+  width: 100%;
+  padding-top: 31px;
+}
+
+.callback-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ============= BUTTON ============= */
+
+
+ .input-wrapper {
+  position: relative;
+  /* width: 100%;
+  max-width: 335px; */
+  height: 48px;
+  margin-bottom: 40px;
+}
+
+.recall-btn {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 100px;
+  background: #FC8A11;
+  padding: 15px 35px;
+  z-index: 3;
+} 
+
+/* ============= MEDIA ============= */
+
+
+@media screen and (min-width: 768px) {
+  .callback-container {
+    margin-top: 100px;
+    margin-bottom: 173px;
+  }
+
+  .input-wrapper {
+    max-width: 350px;
+}
+
+  .callback-form {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .callback-p {
+    max-width: 499px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+  }
+  .callback-h2 {
+    max-width: 524px;
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    line-height: 44px;
+  }
+  .callback-img-bg {
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .callback-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 124px;
+    margin-bottom: 124px;
+  }
+  .callback-form {
+    max-width: 350px;
+    margin-left: 0;
+  }
+  .input-wrapper {
+    max-width: 350px;
+  }
+  .callback-p,
+  .callback-h2 {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-top: 20px;
+  }
+  .callback-img-bg {
+    max-width: 525px;
+  }
+  .callback-img {
+    width: 525px;
+  }
+}
