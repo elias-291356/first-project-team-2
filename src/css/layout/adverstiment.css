@@ -3,11 +3,19 @@
 }
 
 .adment-orange-text {
-    background: #FC8A11;
+    display: flex;
+
+    background-color: var(--orange);
+
+    transform: rotate(2deg);
 }
 
 .adment-green-text {
+    display: flex;
+
+    background-color: var(--green);
     
+    transform: rotate(-4deg)
 }
 
 .adment-header-line-run {
@@ -19,6 +27,16 @@
     line-height: 28px;
     /* 116.667% */
     letter-spacing: -0.48px;
+
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .adment-span-40 {
@@ -29,4 +47,14 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: -0.48px;
+}
+
+@keyframes marqueeLine {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
