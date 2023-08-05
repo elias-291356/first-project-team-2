@@ -1,5 +1,5 @@
 .callback-container {
-  padding-top: 80px;
+
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
@@ -109,12 +109,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .callback-p {
     max-width: 499px;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.72px;
   }
+
   .callback-h2 {
     max-width: 488px;
     margin-left: auto;
@@ -123,6 +125,7 @@
     letter-spacing: -1.6px;
     line-height: 1.1;
   }
+
   .callback-img-bg {
     max-width: 704px;
   }
@@ -136,13 +139,16 @@
     margin-top: 124px;
     margin-bottom: 124px;
   }
+
   .callback-form {
     max-width: 350px;
     margin-left: 0;
   }
+
   .input-wrapper {
     max-width: 350px;
   }
+
   .callback-p,
   .callback-h2 {
     padding-left: 0;
@@ -154,6 +160,7 @@
     flex-direction: column;
     text-align: left;
   }
+
   .right-column {
     display: flex;
     flex-direction: column;
@@ -161,9 +168,11 @@
     text-align: right;
     margin-top: 20px;
   }
+
   .callback-img-bg {
     max-width: 524px;
   }
+
   .callback-img {
     width: 524px;
   }
