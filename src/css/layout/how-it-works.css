@@ -14,13 +14,12 @@
     }
 }
 
-
 .hiw-order {
     display: flex;
     flex-wrap: wrap;
 }
 
-.hiw-heaer {
+.hiw-header {
     margin-bottom: 24px;
 
     font-size: 28px;
@@ -31,7 +30,7 @@
     text-transform: uppercase;
 }
 
-.hiw-heaer-small {
+.hiw-header-small {
     margin-bottom: 24px;
 
     font-size: 24px;
@@ -59,6 +58,11 @@
 
 .hiw-list-items:nth-child(1) {
     margin-bottom: 20px;
+}
+
+.section-hiw {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .hiw-buystep {
@@ -131,8 +135,8 @@
         margin-bottom: 40px;
     }
 
-    .hiw-heaer {
-        width: 386px;
+    .hiw-header {
+        width: 370px;
 
         font-size: 40px;
         font-weight: 500;
@@ -203,8 +207,7 @@
         margin-right: 39px;
     }
 
-    .hiw-heaer-small {
-        text-shadow: 0px 4px 70px 0px #0000001a;
+    .hiw-header-small {
         font-size: 28px;
         font-weight: 500;
         line-height: 1.14;
@@ -238,8 +241,8 @@
         height: 170px;
     }
 
-    .hiw-heaer {
-        width: 614px;
+    .hiw-header {
+        width: 604px;
         letter-spacing: -1.92px;
         margin-bottom: 40px;
 
@@ -291,7 +294,7 @@
         padding-left: 0px;
     }
 
-    .hiw-heaer-small {
+    .hiw-header-small {
         font-size: 40px;
         font-weight: 500;
         line-height: 1.1;
