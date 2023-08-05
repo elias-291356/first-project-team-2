@@ -57,10 +57,10 @@
 }
 
 .vegetables-item-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 260px;
+  display: block;
+  width: 100%;
+  margin: auto;
+
 }
 
 .vegetables-item-cost {
@@ -97,7 +97,7 @@
 .vegetables-button-name {
   transform: rotate(-14deg);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
