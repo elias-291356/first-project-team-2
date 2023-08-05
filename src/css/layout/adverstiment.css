@@ -8,6 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
 
 .hidden {
@@ -28,7 +31,7 @@
     display: flex;
     gap: 20px;
     overflow: hidden;
-    width: 200%;
+    width: 105%;
 
     padding: 8.485px 0px 13.471px 5.732px;
     background-color: var(--orange);
@@ -40,7 +43,7 @@
     display: flex;
     gap: 20px;
     overflow: hidden;
-    width: 200%;
+    width: 105%;
 
     padding: 12.474px 0px 9.354px 0px;
     background-color: var(--green);
@@ -49,7 +52,8 @@
 }
 
 .adment-header-line-top-run {
-    max-width: 690px;
+    display: block;
+    width: 690px;
 
     color: #F9F7F4;
     font-size: 24px;
@@ -122,6 +126,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .adment { 
+        padding-top: 100px;
+    }
+
     .adment-orange-text {
         padding: 13.534px 14.403px 18.466px 13.597px;
     }
@@ -142,6 +150,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .adment {
+        padding-top: 124px;
+    }
+
     .adment-orange-text {
         padding: 22.955px 0px 28.074px 0px;
 
