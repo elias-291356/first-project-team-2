@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 768px) {
   .delivery-bg {
-    background-image: none;
+    background-image: url(../../img/delivery/tablet/bg.png);
   }
 
   .delivery-bg-content {
@@ -73,13 +73,8 @@
 
 @media screen and (min-width: 1280px) {
   .delivery-bg {
-    padding: 0;
     background-color: var(--beige);
     background-image: url(../../img/delivery/desktop/bg.svg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 40px;
   }
 
   .delivery-bg-content {
