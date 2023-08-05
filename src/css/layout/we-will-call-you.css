@@ -95,8 +95,9 @@
 
 @media screen and (min-width: 768px) {
   .callback-container {
-    margin-top: 100px;
-    margin-bottom: 173px;
+
+    padding-top: 0px;
+    padding-bottom: 173px;
     gap: 80px;
   }
 
@@ -136,8 +137,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 124px;
-    margin-bottom: 124px;
+    padding-bottom: 124px;
+
   }
 
   .callback-form {
@@ -175,5 +176,9 @@
 
   .callback-img {
     width: 524px;
+  }
+
+  .right-column {
+    margin-top: 0px;
   }
 }

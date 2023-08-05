@@ -1,3 +1,21 @@
+/* .container {
+    padding-top: 80px;
+} */
+/* .container>.hiw-order {
+    padding-top: 80px;
+} */
+
+.hiw-order {
+    padding-top: 80px;
+}
+
+.section-hiw {
+    padding-top: 80px;
+}
+
+
+
+
 @media screen and (max-width: 767px) {
     .hiw-buystep {
         display: flex;
@@ -61,7 +79,7 @@
 }
 
 .section-hiw {
-    padding-top: 0;
+    /* padding-top: 80px; */
     padding-bottom: 0;
 }
 
@@ -125,8 +143,16 @@
 
 @media screen and (min-width: 768px) {
     .hiw-order {
+        padding-top: 100px;
+        padding-bottom: 0px;
         justify-content: space-between;
     }
+
+    .section-hiw {
+        padding-top: 100px;
+    }
+
+
 
     .hiw-broccoli {
         width: 310px;
@@ -235,6 +261,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .hiw-order {
+        padding-top: 124px;
+    }
+
+    .section-hiw {
+        padding-top: 124px;
+    }
 
     .hiw-broccoli {
         width: 410px;
