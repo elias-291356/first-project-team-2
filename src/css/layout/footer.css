@@ -17,6 +17,9 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 335px;
   text-align: center;
   font-size: 14px;
