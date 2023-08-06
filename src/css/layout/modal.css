@@ -87,6 +87,7 @@ html {
    left: 0;
    width: 100%;
    height: 100%;
+   z-index: 10;
    background-color: rgba(46, 47, 66, 0.4);
    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -98,6 +99,11 @@ html {
 }
 
 .modal-window {
+   overflow: auto;
+   position: absolute;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   height: 100vh;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -109,6 +115,12 @@ html {
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+.modal-window::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
 
 /* FAKE CHECKBOX */
 .modal-input {
@@ -136,6 +148,7 @@ html {
 
 .modal-input:checked+.modal-checkbox-label .checkbox-custom-icon {
    opacity: 1;
+   fill: var(--green);
 }
 
 /* /FAKE CHECKBOX */
@@ -526,6 +539,10 @@ html {
       overflow: hidden;
    }
 
+   .modal-card{
+      height: 250px;
+   }
+
    .modal-card-title {
       font-size: 18px;
    }
@@ -560,7 +577,7 @@ html {
 
    .modal-window {
       position: absolute;
-      top: 100px;
+      top: 5px;
       transform: translate(-50%, 0%);
    }
 
