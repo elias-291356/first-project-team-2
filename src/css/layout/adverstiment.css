@@ -29,8 +29,8 @@
     display: flex;
     gap: 20px;
     overflow: hidden;
-    width: 105%;
-    max-width: 100%;
+    /* width: 105%; */
+    width: 101%;
 
     padding: 8.485px 0px 13.471px 0px;
     background-color: var(--orange);
@@ -39,11 +39,11 @@
 }
 
 .adment-green-text {
-    max-width: 100%;
+    width: 101%;
     display: flex;
     gap: 20px;
     overflow: hidden;
-    width: 105%;
+    /* width: 105%; */
 
     padding: 12.474px 0px 9.354px 0px;
     background-color: var(--green);
@@ -133,12 +133,12 @@
     }
 
     .adment-orange-text {
-        min-width: 110%;
+        /* min-width: 101%; */
         padding: 13.534px 14.403px 18.466px 13.597px;
     }
 
     .adment-green-text {
-        min-width: 110%;
+        /* min-width: 101%; */
         padding: 16.137px 9.821px 15.863px 11.179px;
     }
 
