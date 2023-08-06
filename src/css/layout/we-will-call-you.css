@@ -70,6 +70,7 @@
 }
 
 .callback-img {
+  border-radius: 50px;
   display: block;
   max-width: 100%;
   height: auto;
@@ -137,6 +138,7 @@
   }
 
   .callback-img-bg {
+
     max-width: 704px;
   }
 }
