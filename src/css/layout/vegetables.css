@@ -1,10 +1,5 @@
-.container {
-  /* padding-top: 80px; */
-  /* padding-bottom: 20px; */
-}
-
 .container-vegetables {
-  padding-top: 0px;
+  padding-top: 80px;
 }
 
 .subtitile {
@@ -120,7 +115,7 @@
     padding-bottom: 100px;
   } */
   .container-vegetables {
-    /* padding-top: 0px; */
+    padding-top: 100px;
     padding-bottom: 0px;
   }
 
@@ -186,10 +181,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  /* .container {
-    padding-top: 124px;
-    padding-bottom: 124px;
-  } */
+  .container-vegetables {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+
 
   .subtitile {
     font-size: 40px;
