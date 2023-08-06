@@ -341,7 +341,9 @@
     }
 
     .hiw-buystep-list {
-        width: 349px;
+        margin-left: 0px;
+        margin-right: 0px;
+        min-width: 349px;
     }
 
     .hiw-steps-item {
