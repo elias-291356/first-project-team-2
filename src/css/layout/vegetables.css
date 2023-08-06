@@ -55,9 +55,8 @@
 }
 
 .vegetables-item-picture {
-  display: block;
-  width: 100%;
-  margin: auto;
+  width: 299px;
+  height: 249px;
 
 }
 
@@ -137,6 +136,12 @@
     align-items: flex-start;
     margin-bottom: 44px;
     gap: 20px;
+  }
+
+  .vegetables-item-picture {
+    width: 321px;
+    height: 261px;
+
   }
 
   .vegetables-item {
