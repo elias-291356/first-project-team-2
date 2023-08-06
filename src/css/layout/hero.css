@@ -213,6 +213,26 @@
    color: var(--green);
  }
 
+ .btn-basket {
+   background-color: transparent;
+
+ }
+
+
+
+ /* .btn-basket:hover, */
+ .btn-basket:focus {
+   outline: none;
+   outline: 3px solid var(--black);
+   box-sizing: content-box;
+   padding: 0;
+
+
+ }
+
+
+
+
  .hero-list-link {
    color: var(--black);
    text-align: center;
