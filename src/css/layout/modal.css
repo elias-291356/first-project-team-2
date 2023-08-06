@@ -71,8 +71,8 @@ html {
 .modal-close-icon {
    stroke: var(--black);
    width: 12px;
-   height: 12px;  
-   }
+   height: 12px;
+}
 
 
 .btn-banner:hover,
@@ -134,11 +134,11 @@ html {
    opacity: 0;
 }
 
-.modal-input:checked + .modal-checkbox-label .checkbox-custom-icon {
+.modal-input:checked+.modal-checkbox-label .checkbox-custom-icon {
    opacity: 1;
 }
 
- /* /FAKE CHECKBOX */
+/* /FAKE CHECKBOX */
 
 
 
@@ -325,7 +325,7 @@ html {
 .btn-form:hover {
    cursor: pointer;
    background-color: var(--green);
-   color:rgba(255, 255, 255, 1);
+   color: rgba(255, 255, 255, 1);
 
 
 }
@@ -360,7 +360,7 @@ html {
       z-index: 3;
       position: relative;
    }
-   
+
    .modal-card-paragraph {
       letter-spacing: 0.1px;
    }
@@ -415,6 +415,7 @@ html {
    .modal-form {
       display: block;
    }
+
    .form-wrap {
       text-align: center;
    }
@@ -456,7 +457,7 @@ html {
       font-size: 18px;
       margin-bottom: 2px;
    }
-   
+
    .modal-card {
       display: flex;
       width: 100%;
@@ -505,6 +506,7 @@ html {
    .modal-form {
       display: block;
    }
+
    .form-wrap {
       text-align: center;
    }
@@ -513,10 +515,10 @@ html {
       display: none;
       opacity: 0;
    }
-   
+
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px)  {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
 
    .modal-window {
       padding: 40px;
@@ -527,7 +529,7 @@ html {
    .modal-card-title {
       font-size: 18px;
    }
-   
+
 
    .modal-girl {
       left: 335px;

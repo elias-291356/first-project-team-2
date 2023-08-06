@@ -72,13 +72,19 @@
    outline: none;
  } */
 
- .hero-list-item :hover,
- .hero-list-item :focus {
-   /* border-color: var(--black); */
-   outline: 2px solid var(--black);
+ .hero-list-item :hover {
+   outline: 2px solid var(--white);
    border-radius: 50px;
    background-color: transparent;
    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   width: 100%;
+
+ }
+
+ .hero-list-item :focus {
+   outline: 2px solid var(--black);
+   border-radius: 50px;
+   background-color: transparent;
    width: 100%;
 
  }
@@ -179,11 +185,13 @@
  }
 
  .hero-btn:hover {
-   outline: 3px solid var(--white);
+   outline: 6px solid var(--white);
+   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .hero-btn:focus {
    outline: 3px solid var(--black);
+
 
 
  }
@@ -237,6 +245,7 @@
 
 
 
+
  }
 
  .hero-list-item:hover {
@@ -250,11 +259,9 @@
 
  }
 
-
  .hero-list-item:first-child {
    background-color: var(--white);
-
-
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .first-menu {
@@ -301,7 +308,9 @@
    .reviews-count {
      position: absolute;
      left: 105px;
-     height: 50px;
+     height: 54px;
+     width: 54px;
+
    }
 
    .review-cointing {
@@ -315,9 +324,7 @@
 
 
 
-   .reviews-count {
-     width: 50px;
-   }
+
 
    .hero-title {
      max-width: 656px;
@@ -404,14 +411,14 @@
 
    .reviews-count {
      position: absolute;
+     height: 70px;
+     width: 70px;
      left: 140px;
-     height: 66px;
+
    }
 
 
-   .reviews-count {
-     width: 66px;
-   }
+
 
    .review-cointing {
      font-size: 24px;
