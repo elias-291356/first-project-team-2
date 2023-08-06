@@ -152,7 +152,7 @@
 
   .vegetables-item {
     width: calc((100% - 20px) / 2);
-    padding: 64px 24px 24px;
+    /* padding: 64px 24px 24px; */
   }
 
   .vegetables-item-title {
