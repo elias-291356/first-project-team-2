@@ -96,6 +96,12 @@
 .footer-social-link:hover .footer-social-icon,
 .footer-social-link:focus .footer-social-icon {
   fill: var(--green);
+
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  border-color: var(--green);
 }
 
 .address-list {
