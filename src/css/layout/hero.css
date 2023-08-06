@@ -204,6 +204,8 @@
  .img-hero {
    margin-left: auto;
    margin-right: auto;
+   width: 287px;
+   height: 236px;
  }
 
 
@@ -343,6 +345,11 @@
    }
 
 
+   .img-hero {
+
+     width: 479px;
+     height: 393px;
+   }
 
 
 
@@ -435,6 +442,12 @@
      width: 70px;
      left: 140px;
 
+   }
+
+   .img-hero {
+
+     width: 500px;
+     height: 410px;
    }
 
 
