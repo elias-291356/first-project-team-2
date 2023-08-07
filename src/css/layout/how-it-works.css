@@ -4,7 +4,6 @@
 /* .container>.hiw-order {
     padding-top: 80px;
 } */
-
 .hiw-order {
     padding-top: 80px;
 }
@@ -13,15 +12,11 @@
     padding-top: 80px;
 }
 
-
-
-
 @media screen and (max-width: 767px) {
     .hiw-buystep {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-
         padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
@@ -39,7 +34,6 @@
 
 .hiw-header {
     margin-bottom: 24px;
-
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -50,7 +44,6 @@
 
 .hiw-header-small {
     margin-bottom: 24px;
-
     font-size: 24px;
     font-weight: 500;
     line-height: 1.16;
@@ -62,7 +55,6 @@
 .hiw-broccoli {
     width: 335px;
     height: 158px;
-
     margin-bottom: 20px;
 }
 
@@ -103,7 +95,6 @@
     align-items: center;
     gap: 14px;
 
-
 }
 
 .hiw-min-text {
@@ -137,11 +128,9 @@
 
 .hiw-buystep-num {
     display: flex;
-
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     border-radius: 50%;
     background: var(--green);
 }
@@ -157,18 +146,14 @@
         padding-top: 100px;
     }
 
-
-
     .hiw-broccoli {
         width: 310px;
         height: 176px;
-
         margin-bottom: 40px;
     }
 
     .hiw-header {
         width: 370px;
-
         font-size: 40px;
         font-weight: 500;
         line-height: 1.1;
@@ -179,7 +164,6 @@
     .hiw-order-list {
         display: flex;
         gap: 20px;
-
         margin-right: 88px;
     }
 
@@ -206,7 +190,6 @@
         position: relative;
         display: flex;
         align-items: end;
-
         border-radius: 80px;
         padding-top: 40px;
         padding-right: 40px;
@@ -247,7 +230,6 @@
 
     .hiw-buystep-num {
         padding: 10px 20px;
-
         width: 46px;
         height: 44px;
         font-size: 18px;
@@ -262,7 +244,6 @@
         line-height: 1.28;
         letter-spacing: -0.56px;
     }
-
 }
 
 @media screen and (min-width: 1280px) {
@@ -283,7 +264,6 @@
         width: 604px;
         letter-spacing: -1.92px;
         margin-bottom: 40px;
-
         font-size: 48px;
         line-height: 1.04;
         /* 104.167% */
@@ -362,6 +342,3 @@
         letter-spacing: -0.56px;
         margin: 0;
     }
-
-
-}
