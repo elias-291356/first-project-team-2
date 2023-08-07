@@ -94,6 +94,7 @@
     display: flex;
     align-items: center;
     gap: 14px;
+
 }
 
 .hiw-min-text {
@@ -112,6 +113,7 @@
 /* .hiw-buystep-list-items {
     margin-right: 45px;
 } */
+
 .hiw-background {
     background-image: url(../../img/how-it-works/mobile/BG.png);
     width: 100%;
@@ -218,6 +220,7 @@
     /* .hiw-buystep-list-items {
         margin-right: 39px;
     } */
+
     .hiw-header-small {
         font-size: 28px;
         font-weight: 500;
