@@ -3,11 +3,19 @@
 }
 
 .header-container {
-  max-width: 767px;
+  max-width: 375px;
+  padding-left: 0px;
+  padding-right: 0px;
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding: 0 20px;
+
+
+}
+
+.container {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .header-nav {
@@ -163,6 +171,7 @@
     padding: 0 32px;
   }
 
+
   .burger-btn {
     display: none;
   }
@@ -239,4 +248,7 @@
     width: 24px;
     height: 24px;
   }
+
+
+
 }
