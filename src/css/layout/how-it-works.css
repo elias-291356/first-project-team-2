@@ -1,3 +1,21 @@
+/* .container {
+    padding-top: 80px;
+} */
+/* .container>.hiw-order {
+    padding-top: 80px;
+} */
+
+.hiw-order {
+    padding-top: 80px;
+}
+
+.section-hiw {
+    padding-top: 80px;
+}
+
+
+
+
 @media screen and (max-width: 767px) {
     .hiw-buystep {
         display: flex;
@@ -14,13 +32,12 @@
     }
 }
 
-
 .hiw-order {
     display: flex;
     flex-wrap: wrap;
 }
 
-.hiw-heaer {
+.hiw-header {
     margin-bottom: 24px;
 
     font-size: 28px;
@@ -31,7 +48,7 @@
     text-transform: uppercase;
 }
 
-.hiw-heaer-small {
+.hiw-header-small {
     margin-bottom: 24px;
 
     font-size: 24px;
@@ -61,6 +78,11 @@
     margin-bottom: 20px;
 }
 
+.section-hiw {
+    /* padding-top: 80px; */
+    padding-bottom: 0;
+}
+
 .hiw-buystep {
     position: relative;
     border-radius: 40px;
@@ -81,7 +103,7 @@
     align-items: center;
     gap: 14px;
 
-    margin-bottom: 20px;
+
 }
 
 .hiw-min-text {
@@ -89,12 +111,17 @@
 }
 
 .hiw-buystep-list {
-    width: 274px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 275px;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
-.hiw-buystep-list-items {
+/* .hiw-buystep-list-items {
     margin-right: 45px;
-}
+} */
 
 .hiw-background {
     background-image: url(../../img/how-it-works/mobile/BG.png);
@@ -121,8 +148,16 @@
 
 @media screen and (min-width: 768px) {
     .hiw-order {
+        padding-top: 100px;
+        padding-bottom: 0px;
         justify-content: space-between;
     }
+
+    .section-hiw {
+        padding-top: 100px;
+    }
+
+
 
     .hiw-broccoli {
         width: 310px;
@@ -131,8 +166,8 @@
         margin-bottom: 40px;
     }
 
-    .hiw-heaer {
-        width: 386px;
+    .hiw-header {
+        width: 370px;
 
         font-size: 40px;
         font-weight: 500;
@@ -199,12 +234,11 @@
         width: 274px;
     }
 
-    .hiw-buystep-list-items {
+    /* .hiw-buystep-list-items {
         margin-right: 39px;
-    }
+    } */
 
-    .hiw-heaer-small {
-        text-shadow: 0px 4px 70px 0px #0000001a;
+    .hiw-header-small {
         font-size: 28px;
         font-weight: 500;
         line-height: 1.14;
@@ -232,14 +266,21 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .hiw-order {
+        padding-top: 124px;
+    }
+
+    .section-hiw {
+        padding-top: 124px;
+    }
 
     .hiw-broccoli {
         width: 410px;
         height: 170px;
     }
 
-    .hiw-heaer {
-        width: 614px;
+    .hiw-header {
+        width: 604px;
         letter-spacing: -1.92px;
         margin-bottom: 40px;
 
@@ -291,7 +332,7 @@
         padding-left: 0px;
     }
 
-    .hiw-heaer-small {
+    .hiw-header-small {
         font-size: 40px;
         font-weight: 500;
         line-height: 1.1;
@@ -300,7 +341,9 @@
     }
 
     .hiw-buystep-list {
-        width: 349px;
+        margin-left: 0px;
+        margin-right: 0px;
+        min-width: 349px;
     }
 
     .hiw-steps-item {

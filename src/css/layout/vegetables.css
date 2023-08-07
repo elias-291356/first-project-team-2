@@ -1,6 +1,5 @@
-.container {
+.container-vegetables {
   padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 .subtitile {
@@ -34,7 +33,7 @@
 }
 
 .vegetables-item {
-  height: 444px;
+  min-height: 443px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -56,10 +55,9 @@
 }
 
 .vegetables-item-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 260px;
+  width: 299px;
+  height: 249px;
+
 }
 
 .vegetables-item-cost {
@@ -75,6 +73,7 @@
   padding: 0;
   border-radius: 50%;
   background-color: var(--orange);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .vegetables-button:hover,
@@ -96,11 +95,10 @@
 .vegetables-button-name {
   transform: rotate(-14deg);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-
   color: var(--white);
 }
 
@@ -109,9 +107,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container-vegetables {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
 
   .subtitile {
@@ -140,9 +138,15 @@
     gap: 20px;
   }
 
+  .vegetables-item-picture {
+    width: 321px;
+    height: 261px;
+
+  }
+
   .vegetables-item {
+    min-height: 465px;
     width: calc((100% - 20px) / 2);
-    padding: 64px 24px 24px;
   }
 
   .vegetables-item-title {
@@ -176,10 +180,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    padding-top: 124px;
-    padding-bottom: 124px;
+  .container-vegetables {
+    padding-top: 100px;
+    padding-bottom: 0px;
   }
+
 
   .subtitile {
     font-size: 40px;
