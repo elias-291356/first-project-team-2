@@ -62,7 +62,8 @@
 .callback-img-bg {
   display: flex;
   justify-content: center;
-  background-image: url(../../img/we-will-call-you/bg-we-will-call-you.png);
+  background-image: url(../../img/BG.png);
+  /* background-image: url(../../img/we-will-call-you/bg-we-will-call-you.png); */
   max-width: 335px;
   background-color: var(--light-green);
   background-size: auto;
