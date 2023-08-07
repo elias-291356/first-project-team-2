@@ -29,7 +29,6 @@
   text-transform: uppercase;
   color: var(--black);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .link-footer:hover,
@@ -49,9 +48,6 @@
 .logo {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
 
 .menu-nav {
   display: flex;
@@ -87,15 +83,19 @@
   border: 1px solid var(--black);
 }
 
-
 .footer-social-icon {
   opacity: 0.8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover .footer-social-icon,
-.footer-social-link:focus .footer-social-icon {
+.footer-social-link:hover,
+.footer-social-link:focus {
   fill: var(--green);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  border-color: var(--green);
 }
 
 .address-list {
