@@ -91,6 +91,8 @@
   background-color: var(--green);
 }
 
+.wrap-header {}
+
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;

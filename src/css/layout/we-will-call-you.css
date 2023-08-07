@@ -152,6 +152,19 @@
 
   }
 
+  .callback-img-bg {
+    background-image: url(../../img/BG.png);
+
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    background-color: var(--light-green);
+    background-size: auto;
+    background-position: center;
+    border-radius: 40px;
+    width: 100%;
+  }
+
   .callback-form {
     max-width: 350px;
     margin-left: 0;
