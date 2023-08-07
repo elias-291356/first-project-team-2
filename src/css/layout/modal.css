@@ -1,45 +1,3 @@
-:root {
-   --black: #141414;
-   --green: #A1C487;
-   --light-green: #EAF7E5;
-   --orange: #FC8A11;
-   --beige: #FAF3E7;
-   --gray: #F3F3F3;
-   --modal-color: #8e8f99;
-}
-
-:root {
-   --black: #141414;
-   --green: #A1C487;
-   --light-green: #EAF7E5;
-   --orange: #FC8A11;
-   --beige: #FAF3E7;
-   --gray: #F3F3F3;
-   --modal-color: #8e8f99;
-}
-
-html {
-   background-color: white;
-}
-
-/* читка для списка  */
-.list {
-   list-style: none;
-}
-
-/* чиcтка для ссылок */
-.link {
-   text-decoration: none;
-   font-style: normal;
-}
-
-/* чистка нижнего отступа в картинках */
-.img-clean {
-   display: block;
-   height: auto;
-   width: 100%;
-}
-
 
 /*Modal window*/
 
@@ -71,8 +29,8 @@ html {
 .modal-close-icon {
    stroke: var(--black);
    width: 12px;
-   height: 12px;  
-   }
+   height: 12px;
+}
 
 
 .btn-banner:hover,
@@ -146,12 +104,12 @@ html {
    opacity: 0;
 }
 
-.modal-input:checked + .modal-checkbox-label .checkbox-custom-icon {
+.modal-input:checked+.modal-checkbox-label .checkbox-custom-icon {
    opacity: 1;
    fill: var(--green);
 }
 
- /* /FAKE CHECKBOX */
+/* /FAKE CHECKBOX */
 
 
 
@@ -228,14 +186,19 @@ html {
 .modal-btn {
    position: absolute;
    justify-content: center;
-   padding: 8px;
+   padding: 0;
    top: 24px;
    right: 24px;
    max-width: 28px;
    height: 28px;
+   background-color: transparent;
    cursor: pointer;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.svg-close-btn {
+   stroke: var(--green);
 }
 
 
@@ -338,7 +301,7 @@ html {
 .btn-form:hover {
    cursor: pointer;
    background-color: var(--green);
-   color:rgba(255, 255, 255, 1);
+   color: rgba(255, 255, 255, 1);
 
 
 }
@@ -373,7 +336,7 @@ html {
       z-index: 3;
       position: relative;
    }
-   
+
    .modal-card-paragraph {
       letter-spacing: 0.1px;
    }
@@ -428,6 +391,7 @@ html {
    .modal-form {
       display: block;
    }
+
    .form-wrap {
       text-align: center;
    }
@@ -469,7 +433,7 @@ html {
       font-size: 18px;
       margin-bottom: 2px;
    }
-   
+
    .modal-card {
       display: flex;
       width: 100%;
@@ -518,6 +482,7 @@ html {
    .modal-form {
       display: block;
    }
+
    .form-wrap {
       text-align: center;
    }
@@ -526,10 +491,10 @@ html {
       display: none;
       opacity: 0;
    }
-   
+
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px)  {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
 
    .modal-window {
       padding: 40px;
@@ -537,14 +502,14 @@ html {
       overflow: hidden;
    }
 
-   .modal-card{
+   .modal-card {
       height: 250px;
    }
 
    .modal-card-title {
       font-size: 18px;
    }
-   
+
 
    .modal-girl {
       left: 335px;
