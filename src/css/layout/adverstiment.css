@@ -1,10 +1,12 @@
+@media screen and (max-width: 767px) {}
+
 .adment {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden; */
+    overflow: hidden;
     padding-top: 80px;
     /* padding-bottom: 80px; */
 }
@@ -16,7 +18,6 @@
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -27,37 +28,33 @@
     display: flex;
     gap: 20px;
     overflow: hidden;
-    width: 105%;
-
-    padding: 8.485px 0px 13.471px 5.732px;
+    /* width: 105%; */
+    width: 101%;
+    padding: 8.485px 0px 13.471px 0px;
     background-color: var(--orange);
-
     transform: rotate(2deg);
 }
 
 .adment-green-text {
+    width: 101%;
     display: flex;
     gap: 20px;
     overflow: hidden;
-    width: 105%;
-
+    /* width: 105%; */
     padding: 12.474px 0px 9.354px 0px;
     background-color: var(--green);
-
     transform: rotate(-4deg)
 }
 
 .adment-header-line-top-run {
     display: block;
     width: 690px;
-
     color: #F9F7F4;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.16;
     /* 116.667% */
     letter-spacing: -0.48px;
-
     flex-shrink: 0;
     margin: 0;
     min-width: 100%;
@@ -70,14 +67,12 @@
 
 .adment-header-line-bottom-run {
     max-width: 690px;
-
     color: #F9F7F4;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.16;
     /* 116.667% */
     letter-spacing: -0.48px;
-
     flex-shrink: 0;
     margin: 0;
     min-width: 100%;
@@ -91,7 +86,6 @@
 /* .adment-header-line-run:nth-child(2) {
     display: none;
 } */
-
 .adment-span-40 {
     color: #F9F7F4;
     font-family: Neue Montreal;
@@ -129,10 +123,12 @@
     }
 
     .adment-orange-text {
+        /* min-width: 101%; */
         padding: 13.534px 14.403px 18.466px 13.597px;
     }
 
     .adment-green-text {
+        /* min-width: 101%; */
         padding: 16.137px 9.821px 15.863px 11.179px;
     }
 
@@ -154,13 +150,12 @@
     }
 
     .adment-orange-text {
-        padding: 22.955px 0px 28.074px 0px;
-
+        padding: 22.955px 14.403px 28.074px 13.597px;
         transform: rotate(3deg);
     }
 
     .adment-green-text {
-        padding: 22.955px 0px 28.074px 0px;
+        padding: 22.955px 9.821px 28.074px 11.179px;
     }
 
     .adment-header-line-bottom-run {
