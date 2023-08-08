@@ -6,7 +6,8 @@
     <form class="callback-form">
       <div class="input-wrapper">
         <label class="callback-label">
-          <input name="phone" type="tel" placeholder="+380()" class="callback-label-input" maxlength="13" />
+          <input name="phone" type="tel" placeholder="+380" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            class="callback-label-input" />
         </label>
         <button type="submit" class="recall-btn">Recall</button>
       </div>

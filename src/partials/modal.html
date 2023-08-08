@@ -11,11 +11,9 @@
                   <h2 class="modal-card-title">Cabbage Basket</h2>
                   <p class="modal-card-paragraph">Plant</p>
                   <picture class="img-clean">
-                     <source
-                        srcset="./img/modal-window/cabbage@1x.png 1x, /img/modal-window/cabbage@2x.png 2x"
+                     <source srcset="./img/modal-window/cabbage@1x.png 1x, /img/modal-window/cabbage@2x.png 2x"
                         media="(min-width: 768px)">
-                     <source 
-                        srcset="./img/modal-window/cabbage@1x.png 1x, /img/modal-window/cabbage@2x.png 2x"
+                     <source srcset="./img/modal-window/cabbage@1x.png 1x, /img/modal-window/cabbage@2x.png 2x"
                         media="(max-width: 767px)">
                      <img class="img-clean modal-img" src="./img/modal-window/cabbage.png" alt="cabbage">
                   </picture>
@@ -28,7 +26,7 @@
                            </svg>
                         </span>
                      </label>
-                     </div>
+                  </div>
                </div>
             </li>
             <li class="modal-card list">
@@ -36,11 +34,9 @@
                   <h2 class="modal-card-title">Tomato Basket</h2>
                   <p class="modal-card-paragraph">Plant</p>
                   <picture class="img-clean">
-                     <source
-                        srcset="./img/modal-window/tomato@1x.png 1x, /img/modal-window/tomato@2x.png 2x"
+                     <source srcset="./img/modal-window/tomato@1x.png 1x, /img/modal-window/tomato@2x.png 2x"
                         media="(min-width: 768px)">
-                     <source 
-                        srcset="./img/modal-window/tomato@1x.png 1x, /img/modal-window/tomato@2x.png 2x"
+                     <source srcset="./img/modal-window/tomato@1x.png 1x, /img/modal-window/tomato@2x.png 2x"
                         media="(max-width: 767px)">
                      <img class="img-clean modal-img" src="./img/modal-window/tomato.png" alt="tomato">
                   </picture>
@@ -61,11 +57,9 @@
                   <h2 class="modal-card-title">Vegetables Basket</h2>
                   <p class="modal-card-paragraph">Plant</p>
                   <picture class="img-clean">
-                     <source
-                        srcset="./img/modal-window/vegetables@1x.png 1x, /img/modal-window/vegetables@2x.png 2x"
+                     <source srcset="./img/modal-window/vegetables@1x.png 1x, /img/modal-window/vegetables@2x.png 2x"
                         media="(min-width: 768px)">
-                     <source 
-                        srcset="./img/modal-window/vegetables@1x.png 1x, /img/modal-window/vegetables@2x.png 2x"
+                     <source srcset="./img/modal-window/vegetables@1x.png 1x, /img/modal-window/vegetables@2x.png 2x"
                         media="(max-width: 767px)">
                      <img class="img-clean modal-img" src="./img/modal-window/vegetables.png" alt="vegetables">
                   </picture>
@@ -90,52 +84,35 @@
                <!--Name-->
                <div class="form-wrap">
                   <div class="wrap-user">
-                     <input 
-                     type="text" 
-                     name="user-name"  
-                     class="input-form" 
-                     placeholder="Enter full name..." 
-                     pattern="\w{3,16}" 
-                     id="user-name" 
-                     required>
+                     <input type="text" name="user-name" class="input-form" placeholder="Enter full name..."
+                        maxlength="22" pattern="\w{3,16}" id="user-name" required>
                   </div>
                </div>
                <!--Email-->
                <div class="form-wrap">
                   <div class="wrap-user">
-                     <input 
-                     type="email" 
-                     name="text" 
-                     class="input-form" 
-                     placeholder="Enter Email.." 
-                     pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
-                     id="email" 
-                     required>
+                     <input type="email" name="text" class="input-form" placeholder="Enter Email.." maxlength="40"
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="email" required>
                   </div>
                </div>
                <!--Card-->
                <div class="form-wrap">
                   <div class="wrap-user">
-                     <input type="text" 
-                     name="user-name" 
-                     class="input-form"
-                     minlength="16"
-                     maxlength="16"
-                     pattern="[0-9]+" 
-                     placeholder="Enter card..." 
-                     id="card" 
-                     required>
+                     <input type="text" name="user-name" class="input-form" minlength="19" pattern="[0-9]+"
+                        placeholder="Enter card..." id="card" required>
                   </div>
                </div>
                <!--Comments-->
                <div class="wrap-user-comment">
-               <textarea class="textarea-form" name="user-comment" placeholder="Enter comments..." id="user-comment"></textarea>
+                  <textarea class="textarea-form" name="user-comment" placeholder="Enter comments..."
+                     id="user-comment"></textarea>
                </div>
                <!--Button-->
                <button class="btn-form" type="submit">Submit</button>
             </form>
          </div>
-            <div class="modal-girl-pack"><img class="modal-girl" src="./img/modal-window/modal-girl@1x.png" alt="girl"></div>
+         <div class="modal-girl-pack"><img class="modal-girl" src="./img/modal-window/modal-girl@1x.png" alt="girl">
+         </div>
       </div>
       <button type="button" class="modal-btn" data-modal-close="">
          <svg class="svg-close-btn" width="28" height="28">

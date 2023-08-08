@@ -1,3 +1,20 @@
+html {
+  scroll-behavior: smooth;
+
+}
+
+#how-it-works {
+  height: 100%;
+}
+
+#vegetables {
+  height: 100%;
+}
+
+#contacts {
+  height: 100%;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   font-size: 14px;
