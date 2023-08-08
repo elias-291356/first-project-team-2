@@ -55,9 +55,9 @@
   border-radius: 4px;
   border-radius: 100px;
   border: 1px solid #C1BDBD;
-
-
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .callback-img-bg {
   display: flex;
@@ -147,6 +147,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+
+  .callback-h2 {
+    margin-left: 0;
+  }
+
+
+
   .callback-container {
     flex-direction: row;
     align-items: center;

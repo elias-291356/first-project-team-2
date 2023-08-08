@@ -55,6 +55,8 @@
 }
 
 .vegetables-item-picture {
+  margin-right: auto;
+  margin-left: auto;
   width: 299px;
   height: 249px;
 }
