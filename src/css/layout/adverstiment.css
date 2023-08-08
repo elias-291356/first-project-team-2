@@ -6,9 +6,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+
     padding-top: 80px;
-    /* padding-bottom: 80px; */
+
 }
 
 .hidden {
@@ -28,7 +28,7 @@
     display: flex;
     gap: 20px;
     overflow: hidden;
-    /* width: 105%; */
+
     width: 101%;
 
     padding: 8.485px 0px 13.471px 0px;
@@ -41,7 +41,7 @@
     display: flex;
     gap: 20px;
     overflow: hidden;
-    /* width: 105%; */
+
 
     padding: 12.474px 0px 9.354px 0px;
     background-color: var(--green);

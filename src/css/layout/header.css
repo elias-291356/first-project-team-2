@@ -46,15 +46,23 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--black);
+
 }
 
 .header-nav-menu-item:hover,
-.header-nav-menu-item:focus,
-.header-logo:hover,
-.header-logo:focus {
+.header-nav-menu-item:focus {
   background-color: transparent;
   color: var(--green);
 }
+
+
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--green);
+  background-color: var(--white);
+}
+
+
 
 .burger-btn {
   display: block;
@@ -91,7 +99,9 @@
   background-color: var(--green);
 }
 
-.wrap-header {}
+.wrap-header {
+  background-color: transparent;
+}
 
 .mobile-menu.is-open {
   opacity: 1;
