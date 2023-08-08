@@ -17,8 +17,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   
-  <script type="module" crossorigin src="/first-project-team-2/assets/index-3b363af3.js"></script>
-  <link rel="stylesheet" href="/first-project-team-2/assets/index-16a78b5a.css">
+  <script type="module" crossorigin src="/first-project-team-2/assets/index-e1e1df73.js"></script>
+  <link rel="stylesheet" href="/first-project-team-2/assets/index-21e3d1ef.css">
 </head>
 
 <body>
@@ -467,7 +467,8 @@
     <form class="callback-form">
       <div class="input-wrapper">
         <label class="callback-label">
-          <input name="phone" type="tel" placeholder="+380()" class="callback-label-input" maxlength="13" />
+          <input name="phone" type="tel" placeholder="+380" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            class="callback-label-input" />
         </label>
         <button type="submit" class="recall-btn">Recall</button>
       </div>
@@ -619,11 +620,9 @@
                   <h2 class="modal-card-title">Cabbage Basket</h2>
                   <p class="modal-card-paragraph">Plant</p>
                   <picture class="img-clean">
-                     <source
-                        srcset="/first-project-team-2/assets/cabbage@1x-40aba131.png 1x, /first-project-team-2/assets/cabbage@2x-00a0b0f3.png 2x"
+                     <source srcset="/first-project-team-2/assets/cabbage@1x-40aba131.png 1x, /first-project-team-2/assets/cabbage@2x-00a0b0f3.png 2x"
                         media="(min-width: 768px)">
-                     <source 
-                        srcset="/first-project-team-2/assets/cabbage@1x-40aba131.png 1x, /first-project-team-2/assets/cabbage@2x-00a0b0f3.png 2x"
+                     <source srcset="/first-project-team-2/assets/cabbage@1x-40aba131.png 1x, /first-project-team-2/assets/cabbage@2x-00a0b0f3.png 2x"
                         media="(max-width: 767px)">
                      <img class="img-clean modal-img" src="/first-project-team-2/assets/cabbage-193ffd6b.png" alt="cabbage">
                   </picture>
@@ -636,7 +635,7 @@
                            </svg>
                         </span>
                      </label>
-                     </div>
+                  </div>
                </div>
             </li>
             <li class="modal-card list">
@@ -644,11 +643,9 @@
                   <h2 class="modal-card-title">Tomato Basket</h2>
                   <p class="modal-card-paragraph">Plant</p>
                   <picture class="img-clean">
-                     <source
-                        srcset="/first-project-team-2/assets/tomato@1x-685dca56.png 1x, /first-project-team-2/assets/tomato@2x-80c60e04.png 2x"
+                     <source srcset="/first-project-team-2/assets/tomato@1x-685dca56.png 1x, /first-project-team-2/assets/tomato@2x-80c60e04.png 2x"
                         media="(min-width: 768px)">
-                     <source 
-                        srcset="/first-project-team-2/assets/tomato@1x-685dca56.png 1x, /first-project-team-2/assets/tomato@2x-80c60e04.png 2x"
+                     <source srcset="/first-project-team-2/assets/tomato@1x-685dca56.png 1x, /first-project-team-2/assets/tomato@2x-80c60e04.png 2x"
                         media="(max-width: 767px)">
                      <img class="img-clean modal-img" src="/first-project-team-2/assets/tomato@1x-685dca56.png" alt="tomato">
                   </picture>
@@ -669,11 +666,9 @@
                   <h2 class="modal-card-title">Vegetables Basket</h2>
                   <p class="modal-card-paragraph">Plant</p>
                   <picture class="img-clean">
-                     <source
-                        srcset="/first-project-team-2/assets/vegetables@1x-0f877737.png 1x, /first-project-team-2/assets/vegetables@2x-9a3ce9f4.png 2x"
+                     <source srcset="/first-project-team-2/assets/vegetables@1x-0f877737.png 1x, /first-project-team-2/assets/vegetables@2x-9a3ce9f4.png 2x"
                         media="(min-width: 768px)">
-                     <source 
-                        srcset="/first-project-team-2/assets/vegetables@1x-0f877737.png 1x, /first-project-team-2/assets/vegetables@2x-9a3ce9f4.png 2x"
+                     <source srcset="/first-project-team-2/assets/vegetables@1x-0f877737.png 1x, /first-project-team-2/assets/vegetables@2x-9a3ce9f4.png 2x"
                         media="(max-width: 767px)">
                      <img class="img-clean modal-img" src="/first-project-team-2/assets/vegetables-ff1493fb.png" alt="vegetables">
                   </picture>
@@ -698,52 +693,35 @@
                <!--Name-->
                <div class="form-wrap">
                   <div class="wrap-user">
-                     <input 
-                     type="text" 
-                     name="user-name"  
-                     class="input-form" 
-                     placeholder="Enter full name..." 
-                     pattern="\w{3,16}" 
-                     id="user-name" 
-                     required>
+                     <input type="text" name="user-name" class="input-form" placeholder="Enter full name..."
+                        maxlength="22" pattern="\w{3,16}" id="user-name" required>
                   </div>
                </div>
                <!--Email-->
                <div class="form-wrap">
                   <div class="wrap-user">
-                     <input 
-                     type="email" 
-                     name="text" 
-                     class="input-form" 
-                     placeholder="Enter Email.." 
-                     pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
-                     id="email" 
-                     required>
+                     <input type="email" name="text" class="input-form" placeholder="Enter Email.." maxlength="40"
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" id="email" required>
                   </div>
                </div>
                <!--Card-->
                <div class="form-wrap">
                   <div class="wrap-user">
-                     <input type="text" 
-                     name="user-name" 
-                     class="input-form"
-                     minlength="16"
-                     maxlength="16"
-                     pattern="[0-9]+" 
-                     placeholder="Enter card..." 
-                     id="card" 
-                     required>
+                     <input type="text" name="user-name" class="input-form" minlength="19" pattern="[0-9]+"
+                        placeholder="Enter card..." id="card" required>
                   </div>
                </div>
                <!--Comments-->
                <div class="wrap-user-comment">
-               <textarea class="textarea-form" name="user-comment" placeholder="Enter comments..." id="user-comment"></textarea>
+                  <textarea class="textarea-form" name="user-comment" placeholder="Enter comments..."
+                     id="user-comment"></textarea>
                </div>
                <!--Button-->
                <button class="btn-form" type="submit">Submit</button>
             </form>
          </div>
-            <div class="modal-girl-pack"><img class="modal-girl" src="/first-project-team-2/assets/modal-girl@1x-4594f10e.png" alt="girl"></div>
+         <div class="modal-girl-pack"><img class="modal-girl" src="/first-project-team-2/assets/modal-girl@1x-4594f10e.png" alt="girl">
+         </div>
       </div>
       <button type="button" class="modal-btn" data-modal-close="">
          <svg class="svg-close-btn" width="28" height="28">
@@ -752,7 +730,6 @@
       </button>
    </div>
 </div>
-
 
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
